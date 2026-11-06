@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@0.3.7/disable-devtool.min.js'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/main-page/nxu-icon.png">
+    <title>@cash</title>
+    <link rel="stylesheet" href="./assets/users/cash/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto|VT323|Kranky|Poppins' rel='stylesheet'>
+    <meta property="og:title" content="nxu">
+    <meta property="og:description" content="@cash">
+    <meta property="og:image" id="embed-icon" content="https://nxu.lol/assets/users/cash/back1.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#006fff"/>
+    <meta property="og:url" content="https://nxu.lol/cash">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="nxu">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="twitter:description" content="@cash">
+    <meta name="twitter:image" content="https://nxu.lol/assets/users/cash/back1.jpg">
+</head>
+<body>  
+    <div class="initialgifwrapper" id="initialgifwrapper">
+        <div class="initialgif">
+            <a href="#">click to enter...</a>
+        </div>
+    </div> 
+
+    <div id="foglayer_01" class="fog">
+        <div class="image01"></div>
+        <div class="image02"></div>
+    </div>
+    <div id="foglayer_02" class="fog">
+        <div class="image01"></div>
+        <div class="image02"></div>
+    </div>
+    <div id="foglayer_03" class="fog">
+        <div class="image01"></div>
+        <div class="image02"></div>
+    </div>
+     <div class="overlay noselect">
+        <p class="glitch" id="glitch">
+            <span aria-hidden="true">cash</span>
+            cash
+            <span aria-hidden="true">cash</span>
+        </p>
+        <div id="discord-status" class="discord-widget">
+            <p></p>
+        </div>
+        <div class="audio-player">
+            <audio id="audio" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+            <div class="controls">
+              <button class="prev">⏮</button>
+              <button class="play-pause">▶</button>
+              <button class="next">⏭</button>
+              <div class="volume-container">
+                <button class="mute">🔊</button>
+                <input type="range" class="volume-slider" min="0" max="1" step="0.1" value="1">
+              </div>
+            </div>
+            <div class="progress-container" id="progress-container">
+              <div class="progress-bar"></div>
+            </div>
+            <div class="time-container">
+              <span class="current-time">0:00</span>
+              <span class="duration">0:00</span>
+            </div>
+          </div>
+        <div class="user-info">
+            <div class="badges">
+                <span class="badge verified" data="Verified"></span>
+                <span class="badge diamond" data="VIP"></span>
+            </div>
+        </div>
+        <div class="icons-three">
+            <a href="https://t.me/cashroyi" class="contact">
+                <i class="bi bi-telegram"></i>
+            </a>
+            <a href="https://discord.gg/zoneism" class="contact">
+                <i class="bi bi-discord"></i>
+            </a>
+            <a href="https://soundcloud.com/cashlacedyourdog" class="contact">
+                <i class="fab fa-soundcloud"></i>
+            </a>
+        </div>    
+            
+        <audio id="music">
+            <source src="" type="audio/mpeg">
+        </audio>
+        <script src="./assets/users/cash/main.js"></script>
+        <footer>
+            <p>Copyright © 2024 nxu.lol</p>
+        </footer>
+</body>
+</html>
